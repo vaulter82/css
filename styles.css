@@ -1,0 +1,194 @@
+﻿/*
+logo orange - #f57b20
+*/
+.header {
+    background: red;
+}
+
+
+#block-views-block-slideshow-block-1 {
+    float: none;
+    height: 216px;
+    width: 100%;
+}
+
+
+.region-header {
+    position: relative;
+    min-height: 128px;
+}
+
+
+#block-subbartik-branding {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.views_slideshow_cycle_main {
+    float: right;
+    width: 324px;
+    height: 216px;
+    border: solid 2px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.featured-top .featured-title {
+    font-size: 1.75em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+.featured-top p {
+    margin: 10px 0;
+}
+
+
+.page-title {
+    font-size: 3.5em;
+    border-bottom: solid 2px;
+}
+
+
+#block-subbartik-content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #f57b20;
+}
+
+
+#block-subbartik-content h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+#block-subbartik-content h4 + p {
+    padding: 10px 0;
+    border-top: solid 1px #f57b20;
+}
+
+
+#block-subbartik-content .content img.homepage-logo {
+    float: left;
+    height: auto;
+    width: 370px;
+}
+/* seperate */
+.results .views-row::before {
+    content: "";
+    background: url(../images/file.svg) no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+
+.results .views-row {
+    margin: 4px 0;
+    font-size: 1.25em;
+    border: solid 1px #f57b20;
+    border-radius: 6px;
+}
+
+
+.results .views-row:nth-child(odd) {
+    background: #eee;
+}
+
+
+.results .views-row:hover {
+    background: #ccc;
+}
+
+
+.results .views-row a {
+    padding: 8px;
+    display: block;
+    border: none;
+}
+/* --------------------- */
+/* together */
+/*.results .views-row {
+    margin: 0;
+    font-size: 1.25em;
+    border: solid 1px #f57b20;
+    border-bottom: none;
+}
+
+
+.results .views-row:first-child {
+    border-bottom: none;
+    border-radius: 6px 6px 0px 0px;
+}
+
+
+.results .views-row:nth-child(odd) {
+    background: #eee;
+}
+
+
+.results .views-row:last-child {
+    border-bottom: solid 1px #f57b20;
+    border-radius: 0px 0px 6px 6px;
+}
+
+
+.results .views-row:hover {
+    background: #ccc;
+}
+
+
+.results .views-row a {
+    padding: 8px;
+    display: block;
+    border: none;
+}*/
+/* --------------------- */
+/*.view-announcements .views-row {
+    padding-left: 10px;
+    border: solid 1px;
+}
+
+
+.view-announcements .featured {
+    border-color: red;
+}
+
+
+.drupal-guy {
+    height: 32px;
+    width: auto;
+} */
+
+
+@media screen and (max-width: 700px) {
+    #block-subbartik-branding {
+        position: relative;
+    }
+
+
+    .views_slideshow_cycle_main {
+        float: none;
+    }
+
+
+    .site-branding__text {
+        vertical-align: middle;
+    }
+
+
+    #block-subbartik-content .content img.homepage-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
