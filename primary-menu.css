@@ -2,13 +2,11 @@
   display: none;
 }
 
-
 .region-primary-menu .menu {
   margin: 0;
   padding: 0 15px;
   font-size: .929em;
 }
-
 
 .region-primary-menu .menu .menu-item {
   float: left;
@@ -18,7 +16,6 @@
   height: auto;
   overflow: visible;
 }
-
 
 .region-primary-menu .menu .menu-item a {
   float: left;
@@ -31,16 +28,13 @@
   transition: background .5s;
 }
 
-
 .region-primary-menu .menu .menu-item a.is-active {
   background: white;
 }
 
-
 .region-primary-menu .menu .menu-item a:hover {
   background: white;
 }
-
 
 @media screen and (max-width: 700px) {
   .region-primary-menu .menu {
@@ -64,15 +58,12 @@
   }
 }
 
-
 @media screen and (max-width: 460px) {
   /* --------------- Primary Menu ------------ */
-
 
    .region-primary-menu {
     clear: both;
   }
-
 
   [dir="rtl"] .region-primary-menu .menu {
     text-align: right;
@@ -80,28 +71,28 @@
     margin-right: 5px; /* This is required to win over specificity of [dir="rtl"] ul.menu */
   }
 
-
   .region-primary-menu .menu .menu-item a {
     border: none;
   }
 
-
   [dir="rtl"] .region-primary-menu .menu a {
     padding: 0.9em 10px 0.9em 0;
   }
+  
   .region-primary-menu .menu a:hover,
   .region-primary-menu .menu a:focus {
     background: #f6f6f2;
     background: rgba(255, 255, 255, 0.95);
   }
+  
   .region-primary-menu .menu a:active {
     background: #b3b3b3;
     background: rgba(255, 255, 255, 1);
   }
+  
   .region-primary-menu .menu-item a.is-active {
     border-bottom: none;
   }
-
 
   /* ---------- Primary Menu Toggle ----------- */
   /* Hide the toggle by default. */
@@ -115,10 +106,12 @@
     position: fixed;
     top: 0;
   }
+
   .region-primary-menu .menu-toggle {
     display: none;
     margin-top: 10px;
   }
+
   body:not(:target) .region-primary-menu .menu-toggle {
     color: #333;
     background: #ccc;
@@ -130,9 +123,10 @@
     padding: 0.9em 10px 0.9em 10px;
     z-index: 1000;
   }
+
   body:not(:target) .region-primary-menu .menu-toggle:after {
     content:"";
-    background: url(../../../../misc/icons/ffffff/hamburger.svg) no-repeat;
+    background: url(../../../core/misc/icons/ffffff/hamburger.svg) no-repeat;
     background-size: contain;
     width: 22px;
     height: 22px;
@@ -140,23 +134,26 @@
     position: absolute;
     right: 10px; /* LTR */
   }
+
   [dir="rtl"] body:not(:target) .region-primary-menu .menu-toggle:after {
     right: initial;
     left: 10px;
   }
+
   body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu-toggle,
   body:not(:target) .region-primary-menu .menu-toggle--hide {
     display: none;
   }
+
   body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu-toggle--hide {
     display: block;
   }
-
 
   body:not(:target) .region-primary-menu .menu-item {
     height: 0;
     overflow: hidden;
   }
+
   body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .menu-item {
     height: auto;
     overflow: visible;
